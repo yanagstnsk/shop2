@@ -1,0 +1,60 @@
+body {
+    font-family: "Literata", serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#F2F3E8;
+}
+
+.logo img{ 
+    position:absolute;
+    top: 0;
+    left: 0;
+    max-width: 350px;
+    height:auto;
+    margin-left: 14px;
+    margin-top: 10px;
+    }
+
+.center-text{ 
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding: 30 px;
+}
+
+.katalog{
+    background:#F2F3E8 ;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+/* Очищення маргінів для img */
+.column img {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd; /* Додаємо обведення 2px, solid (тверде) і колір #ddd (сірий) */
+    border-radius: 5px;
+}
+
+/* Додаткові стилі для відображення тексту */
+.product-text {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
